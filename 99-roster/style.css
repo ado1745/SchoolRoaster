@@ -1,0 +1,64 @@
+body{
+    background: url(./harvard-social1200.jpg) no-repeat center center fixed ;
+    background-size: cover;
+    min-height: 100vh;
+    }
+    .navbar {
+    color: white;
+    justify-content: center;
+    font-family: 'Merriweather', serif;
+    
+    }
+    
+    .jumbotron {
+    margin-top: 20px;
+    background: rgba(111, 143, 175, 0.7);
+    color: white;
+    height: 400px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    }
+    
+    .btn{
+    width: 400px;
+    }
+    .card {
+    background: rgba(111, 143, 175, 0.7);
+    color: white;
+    font-family: 'Bree Serif', serif;
+    
+    }
+    .stdCard{
+    width: 275px;
+    }
+    .stdCard>img{
+    width: 275px;
+    height: 275px;;
+    }
+    .deleteBtn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: rgba(111, 143, 175, 0.3);
+    border-radius: 5px;
+    color: white;
+    transform: translateX(101%);
+    cursor: pointer;
+    display: none;
+    }
+    .stdCard:hover .deleteBtn{
+    transform: translateX(0%);
+    display: inline;
+    }
+    #tab {
+    margin-bottom: 14px;
+    }
+    #studenGrid{
+    width: 90wv;
+    margin: 0 auto;
+    margin-left: 40px;
+    margin-right: 40px;
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 2rem;
+    }
+    
